@@ -1,6 +1,25 @@
+
+.welcome-message {
+    text-align: center;
+    color: azure;
+    opacity: 0.7;
+    background-color: black;
+    font-size: 10px;
+    font-style:italic;
+}
+
 .banner {
     background-position: center center;
-    background-image: url('https://lh3.googleusercontent.com/sitesv/AG8ngQXDTHSui067viwBp2ijjDW71o-U9FHfIkr5qLBdp9dijctr_XrRfVdu8wzmScr9LFLj165JVVsuhuW96MtmkQ2-qpXkd-_FiuaBDV4S5a0uf-1Lsi5Kh9-oZnRUM-3K3o5_3GcDdJmweZqC2-eJn-2rbSwsDIDDWVrjPKlQm2iaf6tpTs-Qaff18Q-RjbM=w16383');
+    background-image: url("img/SR2_normandy.jpg");
     background-size: cover;
-    height:500;
+    height: 400px;
+    display: grid;
+    place-items: end center;
+
+}
+
+
+.bannertext {
+    text-align: center;
+    opacity: 0.5;
 }
