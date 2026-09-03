@@ -23,3 +23,26 @@
     text-align: center;
     opacity: 0.5;
 }
+
+#intro {
+    border :3px solid;
+    margin-top: 20px;
+    font-style:initial; 
+    font-size: small;
+}
+
+.mainbody{
+    display: grid;
+    grid-template-columns:45% 55%;
+    grid-template-rows:min-content min-content;
+    align-items: center;
+    background-color: rgba(68, 9, 60, 0.137);
+}
+
+#twocol{
+    grid-column: span 2;
+}
+
+/* .autoadjust{
+    font-size: auto;
+} */
