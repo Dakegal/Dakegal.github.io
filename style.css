@@ -45,6 +45,10 @@
     grid-column: span 2;
 }
 
+table{
+    margin: 0 auto;
+}
+
 /* .autoadjust{
     font-size: auto;
 } */
