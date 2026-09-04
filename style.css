@@ -18,6 +18,9 @@
 
 }
 
+img{
+    width: 100%;
+}
 
 .bannertext {
     text-align: center;
@@ -47,6 +50,22 @@
 
 table{
     margin: 0 auto;
+    border: 2px double ;
+    font-size: small;
+
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: left;
+    vertical-align: top;
+
+}
+
+footer {
+    display: flex;
+    place-content: center;
 }
 
 /* .autoadjust{
