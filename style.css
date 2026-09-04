@@ -1,5 +1,5 @@
 
-.welcome-message {
+.welcome-message, footer {
     text-align: center;
     color: azure;
     opacity: 0.7;
@@ -42,6 +42,7 @@ img{
     background-color: rgba(68, 9, 60, 0.137);
     width: 70%;
     margin: 0 auto;
+    margin-top: 1%;
 }
 
 .twocol{
@@ -63,10 +64,15 @@ th, td {
 
 }
 
-footer {
+.bold{
+    font-weight:bold;
+}
+
+/* footer {
     display: flex;
     place-content: center;
-}
+    text-align: center;
+} */
 
 /* .autoadjust{
     font-size: auto;
